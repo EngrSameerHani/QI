@@ -27,7 +27,7 @@ export const getTickers = async () => {
 export const getTickersById = async (id: number) => {
     const token = (await cookies()).get('token')?.value
     try {
-        const res = await fetch(`https://qih.driveo.pk/api/v1/tickers/${id}`,
+        const res = await fetch(`https://qih.diyarmarketing.com/api/v1/tickers/${id}`,
             {
                 cache: 'no-cache',
                 method: 'GET',

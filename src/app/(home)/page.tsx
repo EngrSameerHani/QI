@@ -407,7 +407,7 @@ const page = async () => {
                             }}
                             src={
                               dept.image
-                                ? `https://qih.driveo.pk/${dept?.image}`
+                                ? `https://qih.diyarmarketing.com/${dept?.image}`
                                 : `/assets/images/departments/${index + 1}.jpg`
                             }
                             width={500}

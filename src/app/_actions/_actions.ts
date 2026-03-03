@@ -132,7 +132,7 @@ export const EditTickerAction = async (formData: FormData, id: number) => {
     const title = formData.get('title')
     const url = formData.get('url')
     try {
-        const response = await fetch(`https://qih.driveo.pk/api/v1/tickers/${id}`, {
+        const response = await fetch(`https://qih.diyarmarketing.com/api/v1/tickers/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -557,7 +557,7 @@ export const TickersCreationAction = async (formData: FormData) => {
             throw new Error('Title or URL is missing');
         }
 
-        const response = await fetch(`https://qih.driveo.pk/api/v1/tickers`, {
+        const response = await fetch(`https://qih.diyarmarketing.com/api/v1/tickers`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

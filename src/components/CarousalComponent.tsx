@@ -36,7 +36,7 @@ const CarousalComponent = async () => {
             <div className="slide" key={slide.id}>
               <div className="bg-section">
                 <img
-                  src={`https://qih.driveo.pk/${slide.image}`}
+                  src={`https://qih.diyarmarketing.com/${slide.image}`}
                   alt="Background"
                 />
               </div>

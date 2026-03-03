@@ -86,7 +86,7 @@ const DepartmentsPage = async () => {
                         <Image
                           src={
                             dept.image
-                              ? `https://qih.driveo.pk/${dept.image}`
+                              ? `https://qih.diyarmarketing.com/${dept.image}`
                               : getDepartmentImage(dept.title)
                           }
                           width={500}

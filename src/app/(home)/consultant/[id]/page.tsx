@@ -61,7 +61,7 @@ const SingleConsultantPage = async (props: {
                     <div className="team-member-holder">
                       <div className="team-img">
                         <img
-                          src={`https://qih.driveo.pk/${consultant?.data?.photo}`}
+                          src={`https://qih.diyarmarketing.com/${consultant?.data?.photo}`}
                           alt="team member"
                         />
                       </div>

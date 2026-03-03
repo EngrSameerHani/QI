@@ -300,7 +300,7 @@ const EditConsultant = ({ id }: { id: number }) => {
               </div>
               <div className="d-flex justify-content-center mb-3">
                 <img
-                  src={`https://qih.driveo.pk/${myForm.photo}`}
+                  src={`https://qih.diyarmarketing.com/${myForm.photo}`}
                   alt="consultant photo"
                   width={300}
                 />

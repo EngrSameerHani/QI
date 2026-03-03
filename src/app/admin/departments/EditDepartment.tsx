@@ -206,7 +206,7 @@ const EditDepartment = ({ department }: { department: Department }) => {
                         Uploaded Image
                       </label>
                       <img
-                        src={`https://qih.driveo.pk/${myForm.image}`}
+                        src={`https://qih.diyarmarketing.com/${myForm.image}`}
                         alt="department image"
                         width={100}
                         height={100}

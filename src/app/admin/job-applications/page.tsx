@@ -76,7 +76,7 @@ const JobApplicationsPage = async (props: {
                     <td className="text-center">
                       {app?.resume ? (
                         <a
-                          href={`https://qih.driveo.pk/${app.resume}`}
+                          href={`https://qih.diyarmarketing.com/${app.resume}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           download

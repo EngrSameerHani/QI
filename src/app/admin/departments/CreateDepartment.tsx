@@ -182,7 +182,7 @@ const CreateDepartment = () => {
                         Uploaded Image
                       </label>
                       <img
-                        src={`https://qih.driveo.pk/${myForm.image}`}
+                        src={`https://qih.diyarmarketing.com/${myForm.image}`}
                         alt="department image"
                         width={150}
                         height={'auto'}

@@ -59,7 +59,7 @@ const SlidersPage = async () => {
                     <td>{slide.description.substring(0, 20)}...</td>
                     <td>
                       <img
-                        src={`https://qih.driveo.pk/${slide.image}`}
+                        src={`https://qih.diyarmarketing.com/${slide.image}`}
                         width={50}
                         height={50}
                         alt={slide.title}

@@ -85,7 +85,7 @@ const Page = async (props: { params: Promise<{ depart: number }> }) => {
                                 <div className="team-member-holder">
                                   <div className="team-img">
                                     <Image
-                                      src={`https://qih.driveo.pk/${consultant.photo}`}
+                                      src={`https://qih.diyarmarketing.com/${consultant.photo}`}
                                       width={500}
                                       height={500}
                                       alt="team member"
