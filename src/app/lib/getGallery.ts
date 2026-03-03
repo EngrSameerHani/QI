@@ -2,7 +2,7 @@
 
 export const getGalleries = async () => {
     try {
-        const res = await fetch('https://wp.driveo.pk/wp-json/5cript-gallery/v1/galleries', {
+        const res = await fetch('https://qih.driveo.pk/wp-json/5cript-gallery/v1/galleries', {
             cache: 'no-cache',
             method: 'GET',
             headers: {
@@ -20,7 +20,7 @@ export const getGalleries = async () => {
 
 export const getGallery = async (id: number) => {
     try {
-        const res = await fetch(`https://wp.driveo.pk/wp-json/5cript-gallery/v1/gallery/${id}/images`, {
+        const res = await fetch(`https://qih.driveo.pk/wp-json/5cript-gallery/v1/gallery/${id}/images`, {
             cache: 'no-cache',
             method: 'GET',
             headers: {
